@@ -1,5 +1,5 @@
-name: helloworld # 这是你的插件的唯一识别名。
-desc: 这是 AstrBot 的默认插件，支持关键词回复。 # 插件简短描述
-version: v1.3 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+name: warframe组队插件 # 这是你的插件的唯一识别名。
+desc: 用于群友在群聊中的快速组队。 # 插件简短描述
+version: 0.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: zhygtx # 作者
+repo: https://github.com/zhygtx/astrbot_plugin_wf # 插件的仓库地址
