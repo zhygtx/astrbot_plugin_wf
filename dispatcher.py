@@ -18,15 +18,11 @@ fissures = load_module("fissures")
 
 # 异步函数：根据不同的消息内容分发调用相应的功能模块
 async def magic_message(message: str) -> str:
-    message = message.strip()
     if message == "测试":
         msg = await testing.test(message)
         return msg
     elif message == "蹲":
-        try:
-            msg = await fissures.run_fissures_module()
-            return msg
-        except Exception as e:
-            return f"请求失败: {str(e)}"
+        msg = await fissures.run_fissures_module()
+        return msg
     else:
         return "1"
